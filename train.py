@@ -15,13 +15,12 @@ import data
 
 debug = True
 
-NPZ_DIR = "/data1/tangss/npz_relative_dist/CASIA_rdp4.0"
-REF_NPZ = "/data1/tangss/npz_relative_dist/rdp4.0/mean.npz"
+NPZ_DIR = "../WriteLikeYouData/npz_relative_dist/CASIA_rdp4.0"
+REF_NPZ = "../WriteLikeYouData/npz_relative_dist/mean.npz"
 
 assert os.path.exists(NPZ_DIR) and os.path.exists(REF_NPZ)
 print("NPZ_DIR:", NPZ_DIR)
 print("REF_NPZ:", REF_NPZ)
-
 
 tf.logging.set_verbosity(tf.logging.INFO)
 

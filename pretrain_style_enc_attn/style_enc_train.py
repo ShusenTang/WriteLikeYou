@@ -11,7 +11,7 @@ from style_enc_model import Style_Enc_Model
 from data import CHN_Style_DataLoader
 from model_utils import save_model, reset_graph
 
-NPZ_DIR = "/data1/tangss/npz_relative_dist/CASIA_rdp4.0"
+NPZ_DIR = "../WriteLikeYouData/npz_relative_dist/CASIA_rdp4.0"
 
 assert os.path.exists(NPZ_DIR)
 print("NPZ_DIR:", NPZ_DIR)

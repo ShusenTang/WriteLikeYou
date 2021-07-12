@@ -8,7 +8,7 @@ from content_enc_model import Content_Enc_Model
 from data import CHN_Reco_DataLoader
 from model_utils import save_model, reset_graph
 
-OLHWDB_root = "../../CASIA_rdp4.0"
+OLHWDB_root = "../WriteLikeYouData/npy/CASIA_rdp4.0"
 
 def get_data_dirs(OLHWDB10_dir, OLHWDB11_dir):
     """
